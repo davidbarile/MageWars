@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e421a254c4cc469cafbb49d4ea371f9, type: 3}
+  m_Name: Card_Druid_Neutral
+  m_EditorClassIdentifier: 
+  Count: 1
+  CardFrontPrefab: {fileID: 7231594076975311969, guid: 17490f1b4f8a945829f741f0b257cf72, type: 3}
+  CardBackPrefab: {fileID: 5932006301025642174, guid: b130b92fc2b254310900eed84a8baf21, type: 3}
+  ConfigID: CardID_470488_6:54:39 PM
+  CardName: Garnick Leafrustle
+  CardSubtitle: Druid
+  CardType: 1
+  Alignment: 2
+  Elements: 2
+  Level: 1
+  AttackDeck: 0
+  DefenseDeck: 0
+  MaxHealth: 8
+  HealthCards: 03000000020000000300000000000000
+  IllustrationSprite: {fileID: 21300000, guid: 8d6a068749e2245b2bd043b91b3fe466, type: 3}
+  SecondarySprite: {fileID: 0}
+  Description: Garnick Leafrustle is a neutral druid who is a master of earth.
+  Reward: 
+  Consequence: 
+  InitialEffect: 
+  PermanentEffect: 
+  DescriptionAlignment: 1
+  ShouldGenerateDescription: 1
+  DescriptionFontSize: 0
+  Resources: []
+  Requirements: []
+  PermanentResource: {fileID: 0}
+  DeckCounts: ffffffff01000000ffffffffffffffffffffffffffffffffffffffff
+  DrawCardsPerTurn: 4
+  MaxCardsInHand: 8
+  MaxArmor: 1
+  MaxPets: 2
+  MaxPlants: 3
+  MaxItems: 1
+  Sum: 31
+  WinCondition: 3 Towers built, one must be Earth

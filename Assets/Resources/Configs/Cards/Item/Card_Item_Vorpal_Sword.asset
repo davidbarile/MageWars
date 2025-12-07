@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e421a254c4cc469cafbb49d4ea371f9, type: 3}
+  m_Name: Card_Item_Vorpal_Sword
+  m_EditorClassIdentifier: 
+  Count: 1
+  CardFrontPrefab: {fileID: 9039683204063823138, guid: e113a5d3fd6384f39abf56429d4a469c, type: 3}
+  CardBackPrefab: {fileID: 0}
+  ConfigID: CardID_450585_6:54:39 PM
+  CardName: Vorpal Sword
+  CardSubtitle: 
+  CardType: 7
+  Alignment: 0
+  Elements: 16
+  Level: 3
+  AttackDeck: 5
+  DefenseDeck: 0
+  MaxHealth: 1
+  HealthCards: 00000000000000000000000000000000
+  IllustrationSprite: {fileID: 21300000, guid: cdcedf03a902d4632886ae3ba337351d, type: 3}
+  SecondarySprite: {fileID: 0}
+  Description: '<attack>
+
+    1 Attack/Turn
+
+    Ignores Armor'
+  Reward: 
+  Consequence: 
+  InitialEffect: 
+  PermanentEffect: 
+  DescriptionAlignment: 1
+  ShouldGenerateDescription: 1
+  DescriptionFontSize: 0
+  Resources:
+  - {fileID: 1051823673, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
+  - {fileID: -534839583, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
+  - {fileID: 1945790377, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
+  - {fileID: -240054049, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
+  - {fileID: -1481015485, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
+  Requirements:
+  - {fileID: 580864233, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
+  - {fileID: 1051823673, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
+  - {fileID: 1945790377, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
+  PermanentResource: {fileID: 0}
+  DeckCounts: ffffffff000000000000000000000000010000000000000000000000
+  DrawCardsPerTurn: 1
+  MaxCardsInHand: 10
+  MaxArmor: 1
+  MaxPets: 0
+  MaxPlants: 0
+  MaxItems: 0
+  Sum: 14
+  WinCondition: 

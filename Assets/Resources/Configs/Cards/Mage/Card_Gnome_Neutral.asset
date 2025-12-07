@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e421a254c4cc469cafbb49d4ea371f9, type: 3}
+  m_Name: Card_Gnome_Neutral
+  m_EditorClassIdentifier: 
+  Count: 1
+  CardFrontPrefab: {fileID: 7231594076975311969, guid: 17490f1b4f8a945829f741f0b257cf72, type: 3}
+  CardBackPrefab: {fileID: 5932006301025642174, guid: b130b92fc2b254310900eed84a8baf21, type: 3}
+  ConfigID: CardID_107427_6:54:39 PM
+  CardName: Shurpi Lollypock
+  CardSubtitle: Gnome
+  CardType: 1
+  Alignment: 2
+  Elements: 2
+  Level: 1
+  AttackDeck: 0
+  DefenseDeck: 0
+  MaxHealth: 5
+  HealthCards: 00000000000000000300000002000000
+  IllustrationSprite: {fileID: 21300000, guid: 5f58cbb271ebe4125a6548eca4fd4a41, type: 3}
+  SecondarySprite: {fileID: 0}
+  Description: Shurpi Lollypock is a neutral gnome who is a master of earth.
+  Reward: 
+  Consequence: 
+  InitialEffect: 
+  PermanentEffect: 
+  DescriptionAlignment: 1
+  ShouldGenerateDescription: 1
+  DescriptionFontSize: 0
+  Resources: []
+  Requirements:
+  - {fileID: -1835174966, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
+  - {fileID: 1474559673, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
+  - {fileID: 1168442795, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
+  PermanentResource: {fileID: -1521518539, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
+  DeckCounts: ffffffff01000000ffffffffffffffffffffffffffffffffffffffff
+  DrawCardsPerTurn: 4
+  MaxCardsInHand: 7
+  MaxArmor: 1
+  MaxPets: 3
+  MaxPlants: 3
+  MaxItems: 1
+  Sum: 28
+  WinCondition: Build 3 Towers, One must be Earth

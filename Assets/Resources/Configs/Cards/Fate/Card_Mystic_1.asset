@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e421a254c4cc469cafbb49d4ea371f9, type: 3}
+  m_Name: Card_Mystic_1
+  m_EditorClassIdentifier: 
+  Count: 3
+  CardFrontPrefab: {fileID: 6248276213439681194, guid: de9b03b58be7640cdbfc0f00bc77b16a, type: 3}
+  CardBackPrefab: {fileID: 0}
+  ConfigID: CardID_760373_6:54:39 PM
+  CardName: Draw 1 Mystic
+  CardSubtitle: 
+  CardType: 2
+  Alignment: 0
+  Elements: 0
+  Level: 1
+  AttackDeck: 0
+  DefenseDeck: 0
+  MaxHealth: 5
+  HealthCards: 00000000000000000000000000000000
+  IllustrationSprite: {fileID: 21300000, guid: cbfd402e6622b4777a0852522583ee7b, type: 3}
+  SecondarySprite: {fileID: 21300000, guid: d2648832729c1427eb63b1728de087d5, type: 3}
+  Description: 'Draw 1 card from
+
+    the <i>Mystic Deck</i>'
+  Reward: 
+  Consequence: 
+  InitialEffect: 
+  PermanentEffect: 
+  DescriptionAlignment: 2
+  ShouldGenerateDescription: 0
+  DescriptionFontSize: 0
+  Resources: []
+  Requirements: []
+  PermanentResource: {fileID: 0}
+  DeckCounts: ffffffffffffffff03000000ffffffffffffffffffffffffffffffff
+  DrawCardsPerTurn: 1
+  MaxCardsInHand: 10
+  MaxArmor: 1
+  MaxPets: 0
+  MaxPlants: 0
+  MaxItems: 0
+  Sum: 18
+  WinCondition: 

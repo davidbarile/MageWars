@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e421a254c4cc469cafbb49d4ea371f9, type: 3}
+  m_Name: Card_Animal_Owl
+  m_EditorClassIdentifier: 
+  Count: 1
+  CardFrontPrefab: {fileID: 9039683204063823138, guid: e113a5d3fd6384f39abf56429d4a469c, type: 3}
+  CardBackPrefab: {fileID: 0}
+  ConfigID: CardID_82034_6:54:39 PM
+  CardName: Owl
+  CardSubtitle: Creature
+  CardType: 6
+  Alignment: 0
+  Elements: 0
+  Level: 1
+  AttackDeck: 3
+  DefenseDeck: 4
+  MaxHealth: 1
+  HealthCards: 00000000000000000000000000000000
+  IllustrationSprite: {fileID: 0}
+  SecondarySprite: {fileID: 0}
+  Description: <health>     <attack>
+  Reward: 
+  Consequence: 
+  InitialEffect: 
+  PermanentEffect: 
+  DescriptionAlignment: 1
+  ShouldGenerateDescription: 1
+  DescriptionFontSize: 0
+  Resources: []
+  Requirements: []
+  PermanentResource: {fileID: 0}
+  DeckCounts: ffffffffffffffffffffffff010000000000000000000000ffffffff
+  DrawCardsPerTurn: 1
+  MaxCardsInHand: 10
+  MaxArmor: 1
+  MaxPets: 0
+  MaxPlants: 0
+  MaxItems: 0
+  Sum: 14
+  WinCondition: 

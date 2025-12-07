@@ -1,0 +1,753 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e07c9b2c97f84356bb2bfac29363e611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StyleTrainerData:
+    rid: 44581318965329921
+  m_DefaultStyleData:
+    rid: 44581318965329922
+  m_DefaultStyleVersion: 2023111600
+  m_DefaultStyles:
+  - rid: 44581318965329923
+  m_AssetPath: 
+  m_PreviousProjectIDs: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
+    - rid: 44581318965329921
+      type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+        m_State: 1
+        m_Disposing: 0
+        m_Styles:
+        - rid: 44581319045808128
+        - rid: 44581484231131150
+        m_Version: 202231001
+    - rid: 44581318965329922
+      type: {class: StyleTrainerData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 11000000-0000-0000-0000-000000000011
+        m_State: 1
+        m_Disposing: 0
+        m_Styles:
+        - rid: 44581484231131151
+        m_Version: 202231001
+    - rid: 44581318965329923
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 1
+        m_Thumbnail:
+          rid: -2
+        m_Visible: 0
+        selectedCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 00000000-0000-0000-0000-000000000000
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 00000000-0000-0000-0000-000000000000
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 00000000-0000-0000-0000-000000000000
+          m_Name: Default
+          m_Description: Default style.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 
+            m_State: 0
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 
+          m_ValidationImagesData: []
+          m_TrainingSteps: 2000
+        m_SampleOutputPrompts: []
+        m_TrainingSetData: []
+        m_Name: Default
+        m_Description: Default style.
+    - rid: 44581319045808128
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 551015b8-a952-4bbb-9f60-7bd4c92e29be
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: 44581319045808130
+        m_Visible: 1
+        selectedCheckPointGUID: c6162757-68d8-4eab-b0c6-1ea53a35d788
+        m_FavoriteCheckPointGUID: a691d4e9-df2f-431e-bc5d-1cc6c00eb4a0
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 5605936b-7ce3-43f7-b180-6b90e8683f05
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_Name: Fantasy UI
+          m_Description: Fantasy card game style like Magic the Gathering.  Highly
+            detailed, artsy, whimsical, crisp, dynamic lighting, rich colors, good
+            art, illustration for game.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: a85750bb-0f29-4a9a-99aa-6c554f10945d
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_ValidationImagesData:
+          - m_Guid: 974dc43b-4d9a-4075-9a45-108eb0db72fe
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 974dc43b-4d9a-4075-9a45-108eb0db72fe
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: wizard
+          - m_Guid: f024e6aa-a6e4-4cc1-a3e0-9080d203cb1f
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: f024e6aa-a6e4-4cc1-a3e0-9080d203cb1f
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: dragon
+          - m_Guid: a0f65790-5782-4fa7-a90e-0a9068ca937f
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: a0f65790-5782-4fa7-a90e-0a9068ca937f
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: sword
+          m_TrainingSteps: 200
+        - m_Guid: 7f323774-fbb8-42bb-8101-2f76a3756f55
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_Name: Fantasy UI
+          m_Description: Fantasy card game style like Magic the Gathering.  Highly
+            detailed, artsy, whimsical, crisp, dynamic lighting, rich colors, good
+            art, illustration for game.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: a85750bb-0f29-4a9a-99aa-6c554f10945d
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_ValidationImagesData:
+          - m_Guid: 6b9e264e-f812-477f-a372-5952095349e0
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 6b9e264e-f812-477f-a372-5952095349e0
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: wizard
+          - m_Guid: 64fc3cf0-6ef1-48d5-8824-1f065eaaae23
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 64fc3cf0-6ef1-48d5-8824-1f065eaaae23
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: dragon
+          - m_Guid: ecea1625-a68f-4be3-8283-d4270118c640
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: ecea1625-a68f-4be3-8283-d4270118c640
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: sword
+          m_TrainingSteps: 400
+        - m_Guid: 1a63f4d7-9b6e-431d-9d6d-6f2615e3c70b
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_Name: Fantasy UI
+          m_Description: Fantasy card game style like Magic the Gathering.  Highly
+            detailed, artsy, whimsical, crisp, dynamic lighting, rich colors, good
+            art, illustration for game.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: a85750bb-0f29-4a9a-99aa-6c554f10945d
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_ValidationImagesData:
+          - m_Guid: ecedb5e5-3673-44d9-8dcb-99280b1f1a6b
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: ecedb5e5-3673-44d9-8dcb-99280b1f1a6b
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: wizard
+          - m_Guid: 566a2b09-ec1e-4807-9397-3862d0a70bed
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 566a2b09-ec1e-4807-9397-3862d0a70bed
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: dragon
+          - m_Guid: f866a813-c624-4b0a-9992-c4b2627c1729
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: f866a813-c624-4b0a-9992-c4b2627c1729
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: sword
+          m_TrainingSteps: 600
+        - m_Guid: a691d4e9-df2f-431e-bc5d-1cc6c00eb4a0
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_Name: Fantasy UI
+          m_Description: Fantasy card game style like Magic the Gathering.  Highly
+            detailed, artsy, whimsical, crisp, dynamic lighting, rich colors, good
+            art, illustration for game.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: a85750bb-0f29-4a9a-99aa-6c554f10945d
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_ValidationImagesData:
+          - m_Guid: 963cd522-da4c-46e0-b21d-1bfb629bbe39
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 963cd522-da4c-46e0-b21d-1bfb629bbe39
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: wizard
+          - m_Guid: ef466d5b-8e90-42fb-844c-bea2f4f251f8
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: ef466d5b-8e90-42fb-844c-bea2f4f251f8
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: dragon
+          - m_Guid: 680e6173-78bb-4a44-8413-3bc20da12eb1
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 680e6173-78bb-4a44-8413-3bc20da12eb1
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: sword
+          m_TrainingSteps: 800
+        - m_Guid: 8b045087-95e1-4f90-b258-0c98bfdce1df
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_Name: Fantasy UI
+          m_Description: Fantasy card game style like Magic the Gathering.  Highly
+            detailed, artsy, whimsical, crisp, dynamic lighting, rich colors, good
+            art, illustration for game.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: a85750bb-0f29-4a9a-99aa-6c554f10945d
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_ValidationImagesData:
+          - m_Guid: 86080ef0-b9c9-4dd4-8d7d-471c2914fa8e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 86080ef0-b9c9-4dd4-8d7d-471c2914fa8e
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: wizard
+          - m_Guid: 3afbb1e6-93eb-435d-a735-206ad8f9e891
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 3afbb1e6-93eb-435d-a735-206ad8f9e891
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: dragon
+          - m_Guid: 13a6e769-d425-41d5-a4d8-05bb72a6f86e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 13a6e769-d425-41d5-a4d8-05bb72a6f86e
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: sword
+          m_TrainingSteps: 1000
+        - m_Guid: 485dc0d7-27c0-44a2-a3d5-cfe3c2969aaa
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_Name: Fantasy UI
+          m_Description: Fantasy card game style like Magic the Gathering.  Highly
+            detailed, artsy, whimsical, crisp, dynamic lighting, rich colors, good
+            art, illustration for game.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: a85750bb-0f29-4a9a-99aa-6c554f10945d
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_ValidationImagesData:
+          - m_Guid: 005d62c4-4e4f-4837-a1fa-1e2e518f636f
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 005d62c4-4e4f-4837-a1fa-1e2e518f636f
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: wizard
+          - m_Guid: e8694935-b319-42ec-a490-223e1ea272dd
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: e8694935-b319-42ec-a490-223e1ea272dd
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: dragon
+          - m_Guid: 3406a12b-550f-4602-8887-4a1b9cf27c13
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 3406a12b-550f-4602-8887-4a1b9cf27c13
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: sword
+          m_TrainingSteps: 1200
+        - m_Guid: 7636d571-8494-45e5-b15f-85365f05271f
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_Name: Fantasy UI
+          m_Description: Fantasy card game style like Magic the Gathering.  Highly
+            detailed, artsy, whimsical, crisp, dynamic lighting, rich colors, good
+            art, illustration for game.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: a85750bb-0f29-4a9a-99aa-6c554f10945d
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_ValidationImagesData:
+          - m_Guid: 6a5202e1-6508-4f4b-be85-127ed5443180
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 6a5202e1-6508-4f4b-be85-127ed5443180
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: wizard
+          - m_Guid: 3bb12067-1e25-4b2e-8197-0ea3d79e6533
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 3bb12067-1e25-4b2e-8197-0ea3d79e6533
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: dragon
+          - m_Guid: 7f893960-3430-4406-b8d2-40f0a62e0f36
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 7f893960-3430-4406-b8d2-40f0a62e0f36
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: sword
+          m_TrainingSteps: 1400
+        - m_Guid: 5b9e51e2-5cee-40a1-b4f5-bef9b06e838c
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_Name: Fantasy UI
+          m_Description: Fantasy card game style like Magic the Gathering.  Highly
+            detailed, artsy, whimsical, crisp, dynamic lighting, rich colors, good
+            art, illustration for game.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: a85750bb-0f29-4a9a-99aa-6c554f10945d
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_ValidationImagesData:
+          - m_Guid: 189b9a43-df68-42f7-9b5e-5346505cfb80
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 189b9a43-df68-42f7-9b5e-5346505cfb80
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: wizard
+          - m_Guid: 31b59058-7bcd-4a2d-9d9b-efbc6b203a54
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 31b59058-7bcd-4a2d-9d9b-efbc6b203a54
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: dragon
+          - m_Guid: 9b047527-34c5-4cea-b7b7-42c93638052f
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 9b047527-34c5-4cea-b7b7-42c93638052f
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: sword
+          m_TrainingSteps: 1600
+        - m_Guid: c9570522-3cf4-45a6-96b9-439affbaaaa4
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_Name: Fantasy UI
+          m_Description: Fantasy card game style like Magic the Gathering.  Highly
+            detailed, artsy, whimsical, crisp, dynamic lighting, rich colors, good
+            art, illustration for game.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: a85750bb-0f29-4a9a-99aa-6c554f10945d
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_ValidationImagesData:
+          - m_Guid: 4864fd1a-088c-4ed7-b6ab-866842a79e1c
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 4864fd1a-088c-4ed7-b6ab-866842a79e1c
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: wizard
+          - m_Guid: c6cdb953-96f7-465f-b3e1-ab3aba1cbcf8
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: c6cdb953-96f7-465f-b3e1-ab3aba1cbcf8
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: dragon
+          - m_Guid: e880af16-a938-4dc3-befb-684e5cf5c2e6
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: e880af16-a938-4dc3-befb-684e5cf5c2e6
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: sword
+          m_TrainingSteps: 1800
+        - m_Guid: c6162757-68d8-4eab-b0c6-1ea53a35d788
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_Name: Fantasy UI
+          m_Description: Fantasy card game style like Magic the Gathering.  Highly
+            detailed, artsy, whimsical, crisp, dynamic lighting, rich colors, good
+            art, illustration for game.
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: a85750bb-0f29-4a9a-99aa-6c554f10945d
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+          m_ValidationImagesData:
+          - m_Guid: 3d04cd14-d5ae-45d1-a7f1-007def740f44
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 3d04cd14-d5ae-45d1-a7f1-007def740f44
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: wizard
+          - m_Guid: a344dab6-5447-4047-8a29-53d43c1591cf
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: a344dab6-5447-4047-8a29-53d43c1591cf
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: dragon
+          - m_Guid: cbba5a67-843f-4160-b22a-3d67aa5cc1f5
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: cbba5a67-843f-4160-b22a-3d67aa5cc1f5
+              m_State: 1
+              m_Disposing: 0
+            m_Prompt: sword
+          m_TrainingSteps: 2000
+        m_SampleOutputPrompts:
+        - Wizard
+        - Dragon
+        - Sword
+        m_TrainingSetData:
+        - m_Guid: a85750bb-0f29-4a9a-99aa-6c554f10945d
+          m_State: 1
+          m_Disposing: 0
+          m_TrainingSet:
+          - m_Guid: 9571ae48-0afc-4f20-bb24-ae92be3e2a04
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 44581484231131152
+          - m_Guid: e4e68dce-2ee4-4784-9516-32a92e9bbf00
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 44581484231131153
+          - m_Guid: 4f77f115-d5bf-4bba-845c-71e171e57722
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 44581484231131154
+          - m_Guid: f7ed1bd1-5ec4-400d-8c8f-7e2e6068c825
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 44581484231131155
+          - m_Guid: b75dccd6-9237-4d18-ab8f-3117f2e04d92
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 44581484231131156
+          m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+        m_Name: Fantasy UI
+        m_Description: Fantasy card game style like Magic the Gathering.  Highly
+          detailed, artsy, whimsical, crisp, dynamic lighting, rich colors, good
+          art, illustration for game.
+    - rid: 44581319045808130
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
+        m_State: 3
+        m_Disposing: 1
+    - rid: 44581484231131150
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 00000000-0000-0000-0000-000000000000
+        m_State: 3
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: -2
+        m_Visible: 1
+        selectedCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        m_FavoriteCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+        m_TrainingSteps: 2000
+        m_CheckPoints: []
+        m_SampleOutputPrompts:
+        - Wizard
+        - Dragon
+        - Sword
+        m_TrainingSetData:
+        - m_Guid: 00000000-0000-0000-0000-000000000000
+          m_State: 3
+          m_Disposing: 0
+          m_TrainingSet:
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 44581484231131157
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 44581484231131158
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 44581484231131159
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 44581484231131160
+          - m_Guid: 00000000-0000-0000-0000-000000000000
+            m_State: 3
+            m_Disposing: 0
+            m_ImageArtifact:
+              rid: 44581484231131161
+          m_ProjectID: 96c5c218-90e9-43b1-a2bd-8b0324cb76d1
+        m_Name: Fantasy UI (duplicate)
+        m_Description: Fantasy card game style like Magic the Gathering.  Highly
+          detailed, artsy, whimsical, crisp, dynamic lighting, rich colors, good
+          art, illustration for game.
+    - rid: 44581484231131151
+      type: {class: StyleData, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 5cc104e0-423a-473e-8034-b9d346cb2357
+        m_State: 1
+        m_Disposing: 0
+        m_IsFallback: 0
+        m_Thumbnail:
+          rid: -2
+        m_Visible: 1
+        selectedCheckPointGUID: 00000000-0000-0000-0000-000000000000
+        m_FavoriteCheckPointGUID: active
+        parentID: 00000000-0000-0000-0000-000000000000
+        m_ProjectID: 11000000-0000-0000-0000-000000000011
+        m_TrainingSteps: 2000
+        m_CheckPoints:
+        - m_Guid: 03fa404b-39fc-4979-9272-deb5d8c4b24c
+          m_State: 1
+          m_Disposing: 0
+          m_ProjectID: 11000000-0000-0000-0000-000000000011
+          m_Name: Happy Harvest [Orion V4 2000]
+          m_Description: 8 Nov 2023
+          parent_id: 00000000-0000-0000-0000-000000000000
+          m_TrainingSetData:
+            m_Guid: 3e758588-960f-44f5-865a-d5eaa1b1dec4
+            m_State: 5
+            m_Disposing: 0
+            m_TrainingSet: []
+            m_ProjectID: 11000000-0000-0000-0000-000000000011
+          m_ValidationImagesData:
+          - m_Guid: 96b39a19-2d3e-4bc5-aa3c-38667ed6eba5
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 96b39a19-2d3e-4bc5-aa3c-38667ed6eba5
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A chicken
+          - m_Guid: 05de072c-ebbc-43d7-886b-7ac4f9cbd079
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 05de072c-ebbc-43d7-886b-7ac4f9cbd079
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A cow
+          - m_Guid: 2dbfc212-f87b-45f9-a05a-06368e190ca1
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 2dbfc212-f87b-45f9-a05a-06368e190ca1
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A dog
+          - m_Guid: e0139464-a868-402a-95b8-b4c26685a97b
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: e0139464-a868-402a-95b8-b4c26685a97b
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A farmer
+          - m_Guid: 4421bead-a3ff-4c09-9514-61e127eb470e
+            m_State: 5
+            m_Disposing: 0
+            m_ImageArtifact:
+              m_Guid: 4421bead-a3ff-4c09-9514-61e127eb470e
+              m_State: 5
+              m_Disposing: 0
+            m_Prompt: A pine tree
+          m_TrainingSteps: 1200
+        m_SampleOutputPrompts:
+        - A chicken
+        - A cow
+        - A dog
+        - A farmer
+        - A pine tree
+        m_TrainingSetData:
+        - m_Guid: 3e758588-960f-44f5-865a-d5eaa1b1dec4
+          m_State: 5
+          m_Disposing: 0
+          m_TrainingSet: []
+          m_ProjectID: 11000000-0000-0000-0000-000000000011
+        m_Name: Default
+        m_Description: Default Style
+    - rid: 44581484231131152
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 9571ae48-0afc-4f20-bb24-ae92be3e2a04
+        m_State: 5
+        m_Disposing: 0
+    - rid: 44581484231131153
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: e4e68dce-2ee4-4784-9516-32a92e9bbf00
+        m_State: 5
+        m_Disposing: 0
+    - rid: 44581484231131154
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: 4f77f115-d5bf-4bba-845c-71e171e57722
+        m_State: 5
+        m_Disposing: 0
+    - rid: 44581484231131155
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: f7ed1bd1-5ec4-400d-8c8f-7e2e6068c825
+        m_State: 5
+        m_Disposing: 0
+    - rid: 44581484231131156
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: b75dccd6-9237-4d18-ab8f-3117f2e04d92
+        m_State: 5
+        m_Disposing: 0
+    - rid: 44581484231131157
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-27203e64-7dc9-48e3-a126-280492130b5c
+        m_State: 3
+        m_Disposing: 1
+    - rid: 44581484231131158
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-6e8fcc0f-44e0-4205-98d1-02404360e41b
+        m_State: 3
+        m_Disposing: 1
+    - rid: 44581484231131159
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-e60db783-0cea-438d-a7e4-b453ae4edbe0
+        m_State: 3
+        m_Disposing: 1
+    - rid: 44581484231131160
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-7d9a4b34-5550-4999-a7b5-dbaace63c7eb
+        m_State: 3
+        m_Disposing: 1
+    - rid: 44581484231131161
+      type: {class: ImageArtifact, ns: Unity.Muse.StyleTrainer, asm: Unity.Muse.StyleTrainer}
+      data:
+        m_Guid: StyleTrainerTempGUID-38d03461-c6c5-4a0b-998f-ec4965ef6978
+        m_State: 3
+        m_Disposing: 1
