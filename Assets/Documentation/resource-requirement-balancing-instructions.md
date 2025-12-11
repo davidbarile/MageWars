@@ -18,7 +18,7 @@ However, I only want to use a few resource sprites. The reason is I do not want 
 
 Fate, Challenge, Curse and Blessing cards have neither Resources, Permanent Resources, nor Requirements.
 
-Mage cards have no Resources, however some - not all - of the mages should have a Permanent Resource.  Use your mastery as a game designer to decide if these Permanent Resources should be more common or rare. The Requirements of a Mage card must be met in order for a player whose Mage has died to Resurrect.
+Mage cards have no Resources, however some (15-25%) of the mages should have a Permanent Resource.  Use your mastery as a game designer to decide if these Permanent Resources should be more common or rare. The Requirements of a Mage card must be met in order for a player whose Mage has died to Resurrect.  Mage Resurrection requirements must range between 2 (if rare Resources) and 5 (for more common Resources).
 
 Item cards, Creature cards, Magic cards should be relatively easy to craft, with the only factor being their level.
 
@@ -28,10 +28,13 @@ Structure cards should be hard to craft, requiring many and/or rare Resources to
 
 Resource cards require resources to activate, but once activated, offer various rare Resources, or one Permanent Resource, which is automatically applied to any recipe a player attemts to activate in the future.
 
+In general, cards with Resources should have between 3 and 5 Resources.  3 if more lower level card or resource more rare, to 5 if more common resource or higher level card.
+
 Resource (and Permanent Resource) Sprites to Use:
 Beast1
 Book2
 Bug3
+Coin_Bronze
 Coin_Silver
 Coin_Gold
 Feather1

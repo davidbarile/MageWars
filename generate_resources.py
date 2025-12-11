@@ -13,14 +13,14 @@ with open('Assets/PlayerData/PlayerData.json', 'r') as f:
 pack2 = data['PacksDict']['Pack_02']
 
 # Available resource sprites
-resources = ['Beast1', 'Book2', 'Bug3', 'Coin_Silver', 'Coin_Gold', 'Feather1', 
+resources = ['Beast1', 'Book2', 'Bug3', 'Coin_Bronze', 'Coin_Silver', 'Coin_Gold', 'Feather1', 
              'Fire1', 'Flower1', 'Gem4', 'Light1', 'Plant5', 'Potion2', 'Seed1']
 
 # Common resources (appear more frequently)
-common_resources = ['Coin_Silver', 'Seed1', 'Flower1', 'Plant5', 'Fire1']
+common_resources = ['Coin_Bronze', 'Seed1', 'Flower1', 'Plant5', 'Fire1']
 
 # Uncommon resources
-uncommon_resources = ['Beast1', 'Bug3', 'Feather1', 'Book2', 'Potion2']
+uncommon_resources = ['Beast1', 'Bug3', 'Coin_Silver', 'Feather1', 'Book2', 'Potion2']
 
 # Rare resources
 rare_resources = ['Coin_Gold', 'Gem4', 'Light1']
