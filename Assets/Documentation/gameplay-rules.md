@@ -87,7 +87,8 @@ These cards are only used as Resources to fulfill the Requirements of other card
 
 These cards are scattered through the various decks, and have various negative effects on the player that draws the card, such as lose a turn, discard # cards, lose an item, etc.
 
-However, there are Negate Curse and Deflect Curse Cards that can be drawn or crafted that either cancel the curse or allow the player to project the effects of the Curse Card onto another player.
+### Blessing Cards
+However, there are Blessing Cards (Negate Curse and Deflect Curse) that can be drawn or crafted that either cancel the curse or allow the player to project the effects of the Curse Card onto another player.
 
 ## Combat System
 
