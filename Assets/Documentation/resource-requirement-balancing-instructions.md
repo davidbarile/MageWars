@@ -6,7 +6,7 @@ This document provides guidelines for how to balance Resource to activation Requ
 
 ---
 
-## Pack Generation Instructions
+## Resource/Requirement Balancing Instructions
 
 Many cards in the game have Resources listed as icons along the side of the card.  These cards may be played as a form of currency to fulfill the Requirement icons listed on other cards in order to activate them.
 
