@@ -67,7 +67,9 @@ Here are some Requirement examples:
 "Gem4, @OR, @Any3"
 "Bug3, @Any2"
 
-The maximum number of Resources for a card should be 4, and up to 6 for Structure or Level cards.
+The maximum number of Requirements for a card should be 6 for Structure or Level cards.  All other cards, maximum resources should be 4.  The number of Requirements should NEVER go above 6.
+
+The maximum number of Resources for a card should never go above 5.
 
 Create a copy of the pack with “ID”: “Pack_02”, and edit it to have "Name": "Base Pack Resources". If any of the existing Cards have Resources, Permanent Resources or Resurrection requirements, erase them and start your balancing algorithm from scratch.  Please error-check the JSON when done and fix errors.
 

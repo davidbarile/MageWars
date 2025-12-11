@@ -40,7 +40,7 @@ def get_resources_for_level(level, card_type, num_resources):
     return random.sample(pool, min(num_resources, len(pool)))
 
 def create_requirements(card):
-    """Create balanced requirements for a card"""
+    """Create balanced requirements for a card with proper @OR and @Any logic"""
     card_type = card['CardType']['value__']
     level = card.get('Level', 1)
     
@@ -52,35 +52,109 @@ def create_requirements(card):
         return []
     
     # Mage cards - Resurrection requirements (some have, some don't)
+    # "Mage Resurrection requirements must range between 2 (if rare) and 5 (for more common)"
     if card_type == 1:
         if random.random() < 0.5:  # 50% of mages have resurrection requirements
-            num_reqs = random.randint(2, 4)
-            return get_resources_for_level(2, card_type, num_reqs)
+            num_reqs = random.randint(2, 5)
+            
+            # Decide between normal, @OR, or @Any (only one special operator per requirement)
+            use_or = random.random() < 0.25 and num_reqs >= 4
+            use_any = not use_or and random.random() < 0.15
+            
+            if use_or:
+                # Split into two balanced alternatives
+                # Example: "Gem4, Gem4, @OR, @Any3" (two rares OR 3 any)
+                half = num_reqs // 2
+                left_side = get_resources_for_level(2, card_type, half)
+                # Right side: could be resources or @Any
+                if random.random() < 0.5:
+                    right_side = get_resources_for_level(2, card_type, num_reqs - half)
+                else:
+                    # Use @Any for right side, scaled to be similarly difficult
+                    any_count = half + random.randint(0, 1)  # Similar difficulty
+                    right_side = ['@Any' + str(any_count)]
+                reqs = left_side + ['@OR'] + right_side
+            elif use_any:
+                # Add @Any at the end, scaled appropriately (1-2 for mages)
+                reqs = get_resources_for_level(2, card_type, num_reqs - 1)
+                reqs.append('@Any' + str(random.randint(1, 2)))
+            else:
+                reqs = get_resources_for_level(2, card_type, num_reqs)
+            
+            return reqs
         return []
     
     # Level cards - Harder to craft, increase with level
+    # "Level cards should be in general harder to craft"
     if card_type == 3:
         if level == 1:
-            num_reqs = random.randint(2, 3)
+            num_reqs = random.randint(2, 4)
         elif level == 2:
             num_reqs = random.randint(3, 5)
         else:  # level 3
             num_reqs = random.randint(4, 6)
-        reqs = get_resources_for_level(level, card_type, num_reqs)
-        # Maybe add @Any
-        if random.random() < 0.3 and num_reqs >= 3:
-            reqs.append('@Any' + str(random.randint(1, 3)))
+        
+        # Decide between normal, @OR, or @Any
+        use_or = random.random() < 0.2 and num_reqs >= 4
+        use_any = not use_or and random.random() < 0.3
+        
+        if use_or:
+            # Split into two balanced alternatives for harder cards
+            # Example: "Gem4, Coin_Gold, @OR, @Any4"
+            half = num_reqs // 2
+            left_side = get_resources_for_level(level, card_type, half)
+            # Right side scales with difficulty
+            if random.random() < 0.6:
+                # Use @Any for flexibility, scaled to level
+                any_count = half + level - 1
+                right_side = ['@Any' + str(min(5, any_count))]
+            else:
+                right_side = get_resources_for_level(level, card_type, num_reqs - half)
+            reqs = left_side + ['@OR'] + right_side
+        elif use_any:
+            # @Any scales with level: level 1=1-2, level 2=2-3, level 3=3-4
+            any_count = level + random.randint(0, 1)
+            reqs = get_resources_for_level(level, card_type, num_reqs - 1)
+            reqs.append('@Any' + str(min(5, any_count)))
+        else:
+            reqs = get_resources_for_level(level, card_type, num_reqs)
+        
         return reqs
     
     # Structure cards - Hard to craft
+    # "Structure cards should be hard to craft, requiring many and/or rare Resources"
     if card_type == 5:
         num_reqs = random.randint(4, 6)
-        reqs = get_resources_for_level(3, card_type, num_reqs)
-        if random.random() < 0.4:
-            reqs.append('@Any' + str(random.randint(2, 4)))
+        
+        # Structures are hard - higher chance of flexibility with @OR or @Any
+        use_or = random.random() < 0.25 and num_reqs >= 4
+        use_any = not use_or and random.random() < 0.4
+        
+        if use_or:
+            # Offer two difficult alternatives
+            # Example: "Gem4, Light1, Coin_Gold, @OR, @Any5"
+            half = num_reqs // 2
+            left_side = get_resources_for_level(3, card_type, half)
+            # Right side: either high @Any or rare resources
+            if random.random() < 0.7:
+                # High @Any count for structures (4-5)
+                any_count = random.randint(4, 5)
+                right_side = ['@Any' + str(any_count)]
+            else:
+                right_side = get_resources_for_level(3, card_type, num_reqs - half)
+            reqs = left_side + ['@OR'] + right_side
+        elif use_any:
+            # High @Any count for structures (3-5)
+            any_count = random.randint(3, 5)
+            reqs = get_resources_for_level(3, card_type, num_reqs - 1)
+            reqs.append('@Any' + str(any_count))
+        else:
+            reqs = get_resources_for_level(3, card_type, num_reqs)
+        
         return reqs
     
     # Item, Creature, Magic - Based on level
+    # "should be relatively easy to craft, with the only factor being their level"
     if card_type in [6, 7, 8]:
         if level == 1:
             num_reqs = random.randint(1, 2)
@@ -89,17 +163,29 @@ def create_requirements(card):
         else:  # level 3
             num_reqs = random.randint(3, 4)
         
-        reqs = get_resources_for_level(level, card_type, num_reqs)
+        # Lower chance of special operators for easier cards
+        use_or = random.random() < 0.25 and num_reqs >= 3
+        use_any = not use_or and random.random() < 0.15 and level >= 2
         
-        # Sometimes add @OR for variety
-        if random.random() < 0.2 and num_reqs >= 2:
-            # Insert @OR between two resources
-            insert_pos = random.randint(1, len(reqs))
-            reqs.insert(insert_pos, '@OR')
+        if use_or:
+            # Balanced alternatives for items/creatures/magic
+            # Example: "Fire1, @OR, Seed1, Flower1" (1 common OR 2 commons)
+            half = max(1, num_reqs // 2)
+            left_side = get_resources_for_level(level, card_type, half)
+            right_side = get_resources_for_level(level, card_type, num_reqs - half)
+            reqs = left_side + ['@OR'] + right_side
+        elif use_any:
+            # Low @Any count for easy cards (1-2)
+            any_count = random.randint(1, min(2, level))
+            reqs = get_resources_for_level(level, card_type, num_reqs - 1)
+            reqs.append('@Any' + str(any_count))
+        else:
+            reqs = get_resources_for_level(level, card_type, num_reqs)
         
         return reqs
     
     # Resource cards - Moderate requirements
+    # "Resource cards require resources to activate"
     if card_type == 9:
         if level == 1:
             num_reqs = random.randint(1, 2)
@@ -107,7 +193,26 @@ def create_requirements(card):
             num_reqs = random.randint(2, 3)
         else:
             num_reqs = random.randint(2, 4)
-        return get_resources_for_level(level, card_type, num_reqs)
+        
+        # Moderate chance for flexibility
+        use_or = random.random() < 0.2 and num_reqs >= 3
+        use_any = not use_or and random.random() < 0.1
+        
+        if use_or:
+            # Balanced alternatives
+            half = max(1, num_reqs // 2)
+            left_side = get_resources_for_level(level, card_type, half)
+            right_side = get_resources_for_level(level, card_type, num_reqs - half)
+            reqs = left_side + ['@OR'] + right_side
+        elif use_any:
+            # Low @Any count (1-2)
+            any_count = random.randint(1, 2)
+            reqs = get_resources_for_level(level, card_type, num_reqs - 1)
+            reqs.append('@Any' + str(any_count))
+        else:
+            reqs = get_resources_for_level(level, card_type, num_reqs)
+        
+        return reqs
     
     return []
 
@@ -121,14 +226,30 @@ def create_resources(card):
     if card_type not in [6, 7, 8, 9]:
         return []
     
+    # "In general, cards with Resources should have between 3 and 5 Resources"
+    # "3 if more lower level card or resource more rare, to 5 if more common resource or higher level card"
+    
     # Higher chance for Resource cards to provide resources
     if card_type == 9:
         chance = 0.9
+        # Resource cards tend to have more resources
+        if level == 1:
+            num_resources = random.randint(3, 4)
+        elif level == 2:
+            num_resources = random.randint(3, 5)
+        else:
+            num_resources = random.randint(4, 5)
     else:
         chance = 0.35  # 35% chance for other cards
+        # Other cards have fewer resources
+        if level == 1:
+            num_resources = random.randint(3, 4)
+        elif level == 2:
+            num_resources = random.randint(3, 5)
+        else:
+            num_resources = random.randint(4, 5)
     
     if random.random() < chance:
-        num_resources = random.randint(1, min(2, level + 1))
         return get_resources_for_level(level, card_type, num_resources)
     
     return []
@@ -137,26 +258,29 @@ def create_permanent_resource(card):
     """Create permanent resource for a card"""
     card_type = card['CardType']['value__']
     
-    # Mages - 50% have permanent resources (rare ones)
+    # "some (15-25%) of the mages should have a Permanent Resource"
+    # "Use your mastery as a game designer to decide if these Permanent Resources should be more common or rare"
+    # Decision: Mage permanent resources should be rare/uncommon to make them valuable
     if card_type == 1:
-        if random.random() < 0.5:
-            # Permanent resources tend to be rarer
+        if random.random() < 0.2:  # 20% have permanent resources (within 15-25% range)
+            # Permanent resources for mages are rare - this makes resurrecting more strategic
             return random.choice(rare_resources + uncommon_resources)
         return ''
     
-    # Resource cards - when activated, provide permanent resource
+    # "Resource cards... once activated, offer various rare Resources, or one Permanent Resource"
     if card_type == 9:
         if random.random() < 0.5:  # 50% of resource cards give permanent
+            # Permanent resources should be uncommon/rare to be valuable long-term
             return random.choice(uncommon_resources + rare_resources)
         return ''
     
-    # Level cards - some provide permanent resources
+    # Level cards - some provide permanent resources (rare bonus)
     if card_type == 3:
         if random.random() < 0.3:
             return random.choice(uncommon_resources + rare_resources)
         return ''
     
-    # Structure cards - some provide permanent resources
+    # Structure cards - some provide permanent resources (higher chance, high value)
     if card_type == 5:
         if random.random() < 0.6:
             return random.choice(rare_resources)
@@ -192,10 +316,14 @@ mages_with_res = sum(1 for c in pack_resources['CardDatas'] if c['CardType']['va
 resources_with_perm = sum(1 for c in pack_resources['CardDatas'] if c['CardType']['value__'] == 9 and c.get('PermanentResourceName'))
 cards_with_resources = sum(1 for c in pack_resources['CardDatas'] if c.get('ResourceNames'))
 cards_with_requirements = sum(1 for c in pack_resources['CardDatas'] if c.get('RequirementNames'))
+reqs_with_or = sum(1 for c in pack_resources['CardDatas'] if '@OR' in c.get('RequirementNames', []))
+reqs_with_any = sum(1 for c in pack_resources['CardDatas'] if any('@Any' in str(r) for r in c.get('RequirementNames', [])))
 
 print(f'\nStatistics:')
-print(f'  Mages with permanent resources: {mages_with_res}/6')
-print(f'  Resource cards with permanent: {resources_with_perm}/19')
+print(f'  Mages with permanent resources: {mages_with_res}/6 ({mages_with_res/6*100:.0f}%)')
+print(f'  Resource cards with permanent: {resources_with_perm}/19 ({resources_with_perm/19*100:.0f}%)')
 print(f'  Cards providing resources: {cards_with_resources}')
 print(f'  Cards with requirements: {cards_with_requirements}')
+print(f'  Requirements using @OR: {reqs_with_or}')
+print(f'  Requirements using @Any: {reqs_with_any}')
 print('\nResources and requirements balanced successfully!')
