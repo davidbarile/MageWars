@@ -1,0 +1,1252 @@
+================================================================================
+COMPLETE CARD CATALOG - DEFAULT PACK
+================================================================================
+
+Total Cards: 148
+
+
+================================================================================
+MAGE CARDS (12 total)
+================================================================================
+
+1. Ahman Rotlust
+   Type: Mage (value__: 1)
+   Level: 1
+   Elements: Unknown (16)
+   Alignment: Evil
+   ID: CardID_364859_6:54:39 PM
+   Name: Card_Necromancer_Evil
+
+2. Argyle Zerach
+   Type: Mage (value__: 1)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_93432_6:44:02 PM
+   Name: Card_Cleric_Good
+
+3. Derek Le'Gothica
+   Type: Mage (value__: 1)
+   Level: 1
+   Elements: Unknown (16)
+   Alignment: Evil
+   ID: CardID_996155_6:54:39 PM
+   Name: Card_Warlock_Evil
+
+4. Eldar the Grey
+   Type: Mage (value__: 1)
+   Level: 1
+   Elements: Air+Earth
+   Alignment: Good
+   ID: CardID_406569_6:54:39 PM
+   Name: Card_Mage_Good
+
+5. Garnick Leafrustle
+   Type: Mage (value__: 1)
+   Level: 1
+   Elements: Earth
+   Alignment: Neutral
+   ID: CardID_470488_6:54:39 PM
+   Name: Card_Druid_Neutral
+
+6. Grelda Wrinkleshine
+   Type: Mage (value__: 1)
+   Level: 1
+   Elements: Air
+   Alignment: Good
+   ID: CardID_632765_6:54:39 PM
+   Name: Card_FairyGodmother_Good
+
+7. Helga Withertooth
+   Type: Mage (value__: 1)
+   Level: 1
+   Elements: Unknown (24)
+   Alignment: Evil
+   ID: CardID_996022_6:54:39 PM
+   Name: Card_Witch_Evil
+
+8. Lyla Featherblossom
+   Type: Mage (value__: 1)
+   Level: 1
+   Elements: Air
+   Alignment: Good
+   ID: CardID_652677_6:54:39 PM
+   Name: Card_Elf_Female_Good
+
+9. Lyla Featherblossom
+   Type: Mage (value__: 1)
+   Level: 1
+   Elements: Air
+   Alignment: Good
+   ID: CardID_252322_6:54:39 PM
+   Name: Card_Elf_Male_Good
+
+10. Schlakk
+   Type: Mage (value__: 1)
+   Level: 1
+   Elements: Fire
+   Alignment: Evil
+   ID: CardID_115812_6:54:39 PM
+   Name: Card_Mage_Evil
+
+11. Shurpi Lollypock
+   Type: Mage (value__: 1)
+   Level: 1
+   Elements: Earth
+   Alignment: Neutral
+   ID: CardID_107427_6:54:39 PM
+   Name: Card_Gnome_Neutral
+
+12. Winter Celeste
+   Type: Mage (value__: 1)
+   Level: 1
+   Elements: Water
+   Alignment: Evil
+   ID: CardID_240564_6:54:39 PM
+   Name: Card_IceQueen_Female_Evil
+
+================================================================================
+ATTACK CARDS (15 total)
+================================================================================
+
+1. Arcane Gift
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_20364_6:54:39 PM
+   Name: Card_Gift_01
+
+2. Blessed Quest
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_344032_6:54:39 PM
+   Name: Card_Quest_Special_1
+
+3. Challenging Quest
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_460618_6:54:39 PM
+   Name: Card_Quest_Special_2
+
+4. Draw 1 Arcane
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_477482_6:54:39 PM
+   Name: Card_Arcane_1
+
+5. Draw 1 Enchanted
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_118574_6:54:39 PM
+   Name: Card_Enchanted_1
+
+6. Draw 1 Mystic
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_760373_6:54:39 PM
+   Name: Card_Mystic_1
+
+7. Draw 1 Quest
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_60203_6:54:39 PM
+   Name: Card_Quest_1
+
+8. Draw 2 Arcane
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_279070_6:54:39 PM
+   Name: Card_Arcane_2
+
+9. Draw 2 Enchanted
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_994317_6:54:39 PM
+   Name: Card_Enchanted_2
+
+10. Draw 2 Fate
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_945323_6:54:39 PM
+   Name: Card_Fate_2
+
+11. Draw 2 Mystic
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_418671_6:54:39 PM
+   Name: Card_Mystic_2
+
+12. Draw 3 Arcane
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_585944_6:54:39 PM
+   Name: Card_Arcane_3
+
+13. Fate Combo
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_957401_6:54:39 PM
+   Name: Card_Enchanted_2_Mystic_1
+
+14. Level Draw
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_391192_6:54:39 PM
+   Name: Card_MageLevel_Combo_1
+
+15. Mystic Quest
+   Type: Attack (value__: 2)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_918585_6:54:39 PM
+   Name: Card_Mystic_1_Quest_1
+
+================================================================================
+DEFENSE CARDS (13 total)
+================================================================================
+
+1. Arcane Initiate
+   Type: Defense (value__: 3)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_1690_6:54:39 PM
+   Name: Card_Level_1_06
+
+2. Ritual Acolyte
+   Type: Defense (value__: 3)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_162514_6:54:39 PM
+   Name: Card_Level_1_01
+
+3. Sorcery Pupil
+   Type: Defense (value__: 3)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_218873_6:54:39 PM
+   Name: Card_Level_1_03
+
+4. Worthy Apprentice
+   Type: Defense (value__: 3)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_383277_6:54:39 PM
+   Name: Card_Level_1_04
+
+5. Arcane Practitioner
+   Type: Defense (value__: 3)
+   Level: 2
+   Elements: None
+   Alignment: None
+   ID: CardID_166568_6:54:39 PM
+   Name: Card_Level_2_05
+
+6. Elemental Medium
+   Type: Defense (value__: 3)
+   Level: 2
+   Elements: None
+   Alignment: None
+   ID: CardID_510639_6:54:39 PM
+   Name: Card_Level_2_03
+
+7. Ether Journeyer
+   Type: Defense (value__: 3)
+   Level: 2
+   Elements: None
+   Alignment: None
+   ID: CardID_280192_6:54:39 PM
+   Name: Card_Level_2_06
+
+8. Mana Weaver
+   Type: Defense (value__: 3)
+   Level: 2
+   Elements: None
+   Alignment: None
+   ID: CardID_997946_6:54:39 PM
+   Name: Card_Level_2_01
+
+9. Ritual Specialist
+   Type: Defense (value__: 3)
+   Level: 2
+   Elements: None
+   Alignment: None
+   ID: CardID_606755_6:54:39 PM
+   Name: Card_Level_2_04
+
+10. Ancient Master
+   Type: Defense (value__: 3)
+   Level: 3
+   Elements: None
+   Alignment: None
+   ID: CardID_299408_6:54:39 PM
+   Name: Card_Level_3_07
+
+11. Elemental Sovereign
+   Type: Defense (value__: 3)
+   Level: 3
+   Elements: None
+   Alignment: None
+   ID: CardID_739483_6:54:39 PM
+   Name: Card_Level_3_05
+
+12. Mana Overlord
+   Type: Defense (value__: 3)
+   Level: 3
+   Elements: None
+   Alignment: None
+   ID: CardID_372149_6:54:39 PM
+   Name: Card_Level_3_06
+
+13. Renowned Master
+   Type: Defense (value__: 3)
+   Level: 3
+   Elements: None
+   Alignment: None
+   ID: CardID_70825_6:54:39 PM
+   Name: Card_Level_3_04
+
+================================================================================
+ARMOR CARDS (4 total)
+================================================================================
+
+1. Dragon's Hoarde
+   Type: Armor (value__: 4)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_372558_6:54:39 PM
+   Name: Card_Challenge 5
+
+2. Forest Friends
+   Type: Armor (value__: 4)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_332634_6:54:39 PM
+   Name: Card_Challenge 0
+
+3. Mind Reader 1
+   Type: Armor (value__: 4)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_204505_6:54:39 PM
+   Name: Card_Challenge 2
+
+4. Mind Reader 3
+   Type: Armor (value__: 4)
+   Level: 3
+   Elements: None
+   Alignment: None
+   ID: CardID_750508_6:54:39 PM
+   Name: Card_Challenge 4
+
+================================================================================
+PET CARDS (11 total)
+================================================================================
+
+1. Library
+   Type: Pet (value__: 5)
+   Level: 1
+   Elements: None
+   Alignment: Neutral
+   ID: CardID_433038_6:54:39 PM
+   Name: Card_Library_L2
+
+2. Tower of Air
+   Type: Pet (value__: 5)
+   Level: 1
+   Elements: Air
+   Alignment: None
+   ID: CardID_288213_6:54:39 PM
+   Name: Card_Tower_Air_L1
+
+3. Tower of Earth
+   Type: Pet (value__: 5)
+   Level: 1
+   Elements: Earth
+   Alignment: None
+   ID: CardID_21699_6:54:39 PM
+   Name: Card_Tower_Earth_L1
+
+4. Tower of Fire
+   Type: Pet (value__: 5)
+   Level: 1
+   Elements: Fire
+   Alignment: None
+   ID: CardID_489251_6:54:39 PM
+   Name: Card_Tower_Fire_L1
+
+5. Tower of Ice
+   Type: Pet (value__: 5)
+   Level: 1
+   Elements: Water
+   Alignment: None
+   ID: CardID_459781_6:54:39 PM
+   Name: Card_Tower_Ice_L1
+
+6. Tower of Pain
+   Type: Pet (value__: 5)
+   Level: 1
+   Elements: None
+   Alignment: Evil
+   ID: CardID_397461_6:54:39 PM
+   Name: Card_Tower_Pain_L1
+
+7. Tower of Weakness
+   Type: Pet (value__: 5)
+   Level: 1
+   Elements: None
+   Alignment: Evil
+   ID: CardID_588572_6:54:39 PM
+   Name: Card_Tower_Weakness_L2
+
+8. Secret Garden
+   Type: Pet (value__: 5)
+   Level: 2
+   Elements: None
+   Alignment: Neutral
+   ID: CardID_298442_6:54:39 PM
+   Name: Card_SecretGarden_L2
+
+9. Tower of Darkness
+   Type: Pet (value__: 5)
+   Level: 2
+   Elements: None
+   Alignment: Evil
+   ID: CardID_987196_6:54:39 PM
+   Name: Card_Tower_Darkness_L2
+
+10. Tower of Health
+   Type: Pet (value__: 5)
+   Level: 2
+   Elements: None
+   Alignment: Neutral
+   ID: CardID_689948_6:54:39 PM
+   Name: Card_Tower_Health_L2
+
+11. Tower of Light
+   Type: Pet (value__: 5)
+   Level: 2
+   Elements: None
+   Alignment: Good
+   ID: CardID_923249_6:54:39 PM
+   Name: Card_Tower_Light_L2
+
+================================================================================
+PLANT CARDS (12 total)
+================================================================================
+
+1. Bamboo
+   Type: Plant (value__: 6)
+   Level: 1
+   Elements: Earth
+   Alignment: None
+   ID: CardID_376490_6:54:39 PM
+   Name: Card_Plant_Bamboo
+
+2. Briars
+   Type: Plant (value__: 6)
+   Level: 1
+   Elements: Earth
+   Alignment: None
+   ID: CardID_612386_6:44:02 PM
+   Name: Card_Plant_Briars
+
+3. Cat
+   Type: Plant (value__: 6)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_419567_6:54:39 PM
+   Name: Card_Animal_Cat
+
+4. Cobra
+   Type: Plant (value__: 6)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_455932_6:54:39 PM
+   Name: Card_Animal_Cobra
+
+5. Crow
+   Type: Plant (value__: 6)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_374127_6:54:39 PM
+   Name: Card_Animal_Crow
+
+6. Horse
+   Type: Plant (value__: 6)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_697558_6:54:39 PM
+   Name: Card_Animal_Horse
+
+7. Jaguar
+   Type: Plant (value__: 6)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_898781_6:54:39 PM
+   Name: Card_Animal_Jaguar
+
+8. Monkey
+   Type: Plant (value__: 6)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_679954_6:54:39 PM
+   Name: Card_Animal_Monkey
+
+9. Owl
+   Type: Plant (value__: 6)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_82034_6:54:39 PM
+   Name: Card_Animal_Owl
+
+10. Beanstalk
+   Type: Plant (value__: 6)
+   Level: 3
+   Elements: Earth
+   Alignment: None
+   ID: CardID_755611_6:54:39 PM
+   Name: Card_Plant_Beanstalk
+
+11. Dragon
+   Type: Plant (value__: 6)
+   Level: 3
+   Elements: None
+   Alignment: None
+   ID: CardID_546250_6:20:39 PM
+   Name: Card_Creature_Dragon
+
+12. Unicorn
+   Type: Plant (value__: 6)
+   Level: 3
+   Elements: None
+   Alignment: None
+   ID: CardID_73952_6:45:59 PM
+   Name: Card_Creature_Unicorn
+
+================================================================================
+ITEM CARDS (24 total)
+================================================================================
+
+1. Axe
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_238107_6:54:39 PM
+   Name: Card_Item_Axe
+
+2. Book
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_533844_6:54:39 PM
+   Name: Card_Item_Book
+
+3. Candle
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_976755_6:54:39 PM
+   Name: Card_Item_Candle
+
+4. Cloak
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_862234_6:54:39 PM
+   Name: Card_Item_Cloak
+
+5. Dagger
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_546399_6:54:39 PM
+   Name: Card_Item_Dagger
+
+6. Gloves
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_49984_6:54:39 PM
+   Name: Card_Item_Gloves
+
+7. Hunter's Snare
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_717698_6:54:39 PM
+   Name: Card_Item_HuntersSnare
+
+8. Ice Shield
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: Water
+   Alignment: None
+   ID: CardID_342679_6:54:39 PM
+   Name: Card_Item_Shield_Ice
+
+9. Key
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_813981_6:54:39 PM
+   Name: Card_Item_Key
+
+10. Leather Armor
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_719736_6:54:39 PM
+   Name: Card_Item_Armor_Leather
+
+11. Lock
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_847408_6:54:39 PM
+   Name: Card_Item_Lock
+
+12. Shield
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_271761_6:54:39 PM
+   Name: Card_Item_Shield
+
+13. Shovel
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_570296_6:54:39 PM
+   Name: Card_Item_Shovel
+
+14. Sword
+   Type: Item (value__: 7)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_842747_6:54:39 PM
+   Name: Card_Item_Sword
+
+15. Air Armor
+   Type: Item (value__: 7)
+   Level: 2
+   Elements: None
+   Alignment: None
+   ID: CardID_958144_6:54:39 PM
+   Name: Card_Item_Armor_Air
+
+16. Chainmail Armor
+   Type: Item (value__: 7)
+   Level: 2
+   Elements: None
+   Alignment: None
+   ID: CardID_181767_6:54:39 PM
+   Name: Card_Item_Armor_Chainmail
+
+17. Dwarven Hammer
+   Type: Item (value__: 7)
+   Level: 2
+   Elements: None
+   Alignment: None
+   ID: CardID_816458_6:54:39 PM
+   Name: Card_Item_Dwarven_Hammer
+
+18. Fire Armor
+   Type: Item (value__: 7)
+   Level: 2
+   Elements: None
+   Alignment: None
+   ID: CardID_226359_6:54:39 PM
+   Name: Card_Item_Armor_Fire
+
+19. Fire Sword
+   Type: Item (value__: 7)
+   Level: 2
+   Elements: Fire
+   Alignment: None
+   ID: CardID_404520_6:54:39 PM
+   Name: Card_Item_Fire_Sword
+
+20. Skeleton Key
+   Type: Item (value__: 7)
+   Level: 2
+   Elements: None
+   Alignment: None
+   ID: CardID_871851_6:54:39 PM
+   Name: Card_Item_Key_Skeleton
+
+21. Great Axe
+   Type: Item (value__: 7)
+   Level: 3
+   Elements: None
+   Alignment: None
+   ID: CardID_70084_6:54:39 PM
+   Name: Card_Item_Great_Axe
+
+22. Platemail Armor
+   Type: Item (value__: 7)
+   Level: 3
+   Elements: None
+   Alignment: None
+   ID: CardID_379829_6:54:39 PM
+   Name: Card_Item_Armor_Platemail
+
+23. Ring of Invisibility
+   Type: Item (value__: 7)
+   Level: 3
+   Elements: None
+   Alignment: None
+   ID: CardID_230853_6:54:39 PM
+   Name: Card_Item_Ring_Invisibility
+
+24. Vorpal Sword
+   Type: Item (value__: 7)
+   Level: 3
+   Elements: Unknown (16)
+   Alignment: None
+   ID: CardID_450585_6:54:39 PM
+   Name: Card_Item_Vorpal_Sword
+
+================================================================================
+TOWER CARDS (14 total)
+================================================================================
+
+1. Fireball
+   Type: Tower (value__: 8)
+   Level: 1
+   Elements: Fire
+   Alignment: None
+   ID: CardID_585803_6:54:39 PM
+   Name: Card_Magic_Spell_Fireball
+
+2. Force Field
+   Type: Tower (value__: 8)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_747373_6:54:39 PM
+   Name: Card_Magic_Spell_ForceField
+
+3. Freeze
+   Type: Tower (value__: 8)
+   Level: 1
+   Elements: Water
+   Alignment: None
+   ID: CardID_196918_6:54:39 PM
+   Name: Card_Magic_Spell_Freeze
+
+4. Growth
+   Type: Tower (value__: 8)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_309515_6:54:39 PM
+   Name: Card_Magic_Potion_Growth
+
+5. Healing 1
+   Type: Tower (value__: 8)
+   Level: 1
+   Elements: None
+   Alignment: None
+   ID: CardID_825508_6:54:39 PM
+   Name: Card_Magic_Potion_Healing 1
+
+6. Lightning Bolt
+   Type: Tower (value__: 8)
+   Level: 1
+   Elements: Unknown (16)
+   Alignment: None
+   ID: CardID_520954_6:54:39 PM
+   Name: Card_Magic_Spell_LightningBolt
+
+7. Clairvoyance
+   Type: Tower (value__: 8)
+   Level: 2
+   Elements: None
+   Alignment: None
+   ID: CardID_336485_6:54:39 PM
+   Name: Card_Magic_Spell_Clairvoyance
+
+8. Earthquake
+   Type: Tower (value__: 8)
+   Level: 2
+   Elements: Earth
+   Alignment: None
+   ID: CardID_833335_6:54:39 PM
+   Name: Card_Magic_Earthquake
+
+9. Fire Storm
+   Type: Tower (value__: 8)
+   Level: 2
+   Elements: Fire
+   Alignment: None
+   ID: CardID_498659_6:54:39 PM
+   Name: Card_Magic_Spell_FireStorm
+
+10. Healing 2
+   Type: Tower (value__: 8)
+   Level: 2
+   Elements: None
+   Alignment: None
+   ID: CardID_963096_6:54:39 PM
+   Name: Card_Magic_Potion_Healing 2
+
+11. Holy Rain
+   Type: Tower (value__: 8)
+   Level: 2
+   Elements: Water
+   Alignment: None
+   ID: CardID_113705_6:54:39 PM
+   Name: Card_Magic_Spell_HolyRain
+
+12. Unholy Rain
+   Type: Tower (value__: 8)
+   Level: 2
+   Elements: Water
+   Alignment: None
+   ID: CardID_666334_6:54:39 PM
+   Name: Card_Magic_Spell_UnholyRain
+
+13. Golden Apple
+   Type: Tower (value__: 8)
+   Level: 3
+   Elements: None
+   Alignment: None
+   ID: CardID_168730_6:54:39 PM
+   Name: Card_Magic_GoldenApple
+
+14. Healing 3
+   Type: Tower (value__: 8)
+   Level: 3
+   Elements: None
+   Alignment: None
+   ID: CardID_286353_6:54:39 PM
+   Name: Card_Magic_Potion_Healing 3
+
+================================================================================
+RESOURCE CARDS (19 total)
+================================================================================
+
+1. Air
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: Air
+   Alignment: Good
+   ID: CardID_965110_6:54:39 PM
+   Name: Card_Resource_Element_Air
+
+2. Copper
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_477444_6:54:39 PM
+   Name: Card_Resource_Coins_Copper
+
+3. Crystal Shard
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_500331_6:54:39 PM
+   Name: Card_Resource_Crystal_Shards
+
+4. Darkness
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_359110_6:54:39 PM
+   Name: Card_Resource_Darkness
+
+5. Earth
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: Water
+   Alignment: Good
+   ID: CardID_874542_6:54:39 PM
+   Name: Card_Resource_Element_Water
+
+6. Earth
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: Earth
+   Alignment: Good
+   ID: CardID_279221_6:54:39 PM
+   Name: Card_Resource_Element_Earth
+
+7. Fire
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: Fire
+   Alignment: Good
+   ID: CardID_139913_6:54:39 PM
+   Name: Card_Resource_Element_Fire
+
+8. Gems
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_931475_6:54:39 PM
+   Name: Card_Resource_Gems
+
+9. Goblin Horde
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_692897_6:54:39 PM
+   Name: Card_Resource_Horde_Goblin
+
+10. Gold
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_883563_6:54:39 PM
+   Name: Card_Resource_Coins_Gold
+
+11. Light
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_783915_6:54:39 PM
+   Name: Card_Resource_Light
+
+12. Lightning
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: Unknown (16)
+   Alignment: Good
+   ID: CardID_619630_6:54:39 PM
+   Name: Card_Resource_Element_Lightning
+
+13. Mana
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_997643_6:54:39 PM
+   Name: Card_Resource_Mana
+
+14. Seeds
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: Earth
+   Alignment: Good
+   ID: CardID_104639_6:54:39 PM
+   Name: Card_Resource_Plant_Seeds
+
+15. Silver
+   Type: Resource (value__: 9)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_342321_6:54:39 PM
+   Name: Card_Resource_Coins_Silver
+
+16. Dwarven Horde
+   Type: Resource (value__: 9)
+   Level: 2
+   Elements: None
+   Alignment: Good
+   ID: CardID_721336_6:54:39 PM
+   Name: Card_Resource_Horde_Dwarven
+
+17. Wild
+   Type: Resource (value__: 9)
+   Level: 2
+   Elements: None
+   Alignment: Good
+   ID: CardID_765566_6:54:39 PM
+   Name: Card_Resource_Wild
+
+18. Dragon's Horde
+   Type: Resource (value__: 9)
+   Level: 3
+   Elements: None
+   Alignment: Good
+   ID: CardID_85069_6:54:39 PM
+   Name: Card_Resource_Horde_Dragon
+
+19. Mage's Horde
+   Type: Resource (value__: 9)
+   Level: 3
+   Elements: None
+   Alignment: Good
+   ID: CardID_196768_6:54:39 PM
+   Name: Card_Resource_Horde_Mage1
+
+================================================================================
+CURSE CARDS (18 total)
+================================================================================
+
+1. Added Burden
+   Type: Curse (value__: 10)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_254539_6:54:39 PM
+   Name: Card_Curse_14
+
+2. Booby Trap
+   Type: Curse (value__: 10)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_485818_6:54:39 PM
+   Name: Card_Curse_23
+
+3. Burglar
+   Type: Curse (value__: 10)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_364056_6:54:39 PM
+   Name: Card_Curse_13
+
+4. Famine
+   Type: Curse (value__: 10)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_867713_6:54:39 PM
+   Name: Card_Curse_09
+
+5. Flood
+   Type: Curse (value__: 10)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_585001_6:54:39 PM
+   Name: Card_Curse_11
+
+6. Nature's Revolt
+   Type: Curse (value__: 10)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_658016_6:54:39 PM
+   Name: Card_Curse_22
+
+7. Outbreak
+   Type: Curse (value__: 10)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_23508_6:54:39 PM
+   Name: Card_Curse_17
+
+8. Paralysis
+   Type: Curse (value__: 10)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_81617_6:54:39 PM
+   Name: Card_Curse_01
+
+9. Pestillence
+   Type: Curse (value__: 10)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_384688_6:54:39 PM
+   Name: Card_Curse_07
+
+10. Robbery
+   Type: Curse (value__: 10)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_634667_6:54:39 PM
+   Name: Card_Curse_19
+
+11. Stripped
+   Type: Curse (value__: 10)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_874452_6:54:39 PM
+   Name: Card_Curse_03
+
+12. Bandit Raid
+   Type: Curse (value__: 10)
+   Level: 2
+   Elements: None
+   Alignment: Good
+   ID: CardID_711316_6:54:39 PM
+   Name: Card_Curse_18
+
+13. Booby Trap 2
+   Type: Curse (value__: 10)
+   Level: 2
+   Elements: None
+   Alignment: Good
+   ID: CardID_174546_6:54:39 PM
+   Name: Card_Curse_24
+
+14. Dispel Magic
+   Type: Curse (value__: 10)
+   Level: 2
+   Elements: None
+   Alignment: Good
+   ID: CardID_985212_6:54:39 PM
+   Name: Card_Curse_20
+
+15. Drought
+   Type: Curse (value__: 10)
+   Level: 2
+   Elements: None
+   Alignment: Good
+   ID: CardID_594765_6:54:39 PM
+   Name: Card_Curse_08
+
+16. Minor Loss
+   Type: Curse (value__: 10)
+   Level: 2
+   Elements: None
+   Alignment: Good
+   ID: CardID_978376_6:54:39 PM
+   Name: Card_Curse_04
+
+17. Plague
+   Type: Curse (value__: 10)
+   Level: 2
+   Elements: None
+   Alignment: Good
+   ID: CardID_821528_6:54:39 PM
+   Name: Card_Curse_10
+
+18. Profound Loss
+   Type: Curse (value__: 10)
+   Level: 3
+   Elements: None
+   Alignment: Good
+   ID: CardID_491164_6:54:39 PM
+   Name: Card_Curse_06
+
+================================================================================
+ANTI-CURSE CARDS (6 total)
+================================================================================
+
+1. Deflection
+   Type: Anti-Curse (value__: 11)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_632898_6:54:39 PM
+   Name: Card_Curse_Deflect_01
+
+2. Holy Deflection
+   Type: Anti-Curse (value__: 11)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_270847_6:54:39 PM
+   Name: Card_Curse_Deflect_02
+
+3. Immunity
+   Type: Anti-Curse (value__: 11)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_764154_6:54:39 PM
+   Name: Card_Curse_Nullify_01
+
+4. Unholy Deflection
+   Type: Anti-Curse (value__: 11)
+   Level: 1
+   Elements: None
+   Alignment: Good
+   ID: CardID_278375_6:54:39 PM
+   Name: Card_Curse_Deflect_03
+
+5. Global Outbreak
+   Type: Anti-Curse (value__: 11)
+   Level: 2
+   Elements: None
+   Alignment: Good
+   ID: CardID_24525_6:54:39 PM
+   Name: Card_Curse_Deflect_04
+
+6. Holy Water
+   Type: Anti-Curse (value__: 11)
+   Level: 2
+   Elements: None
+   Alignment: Good
+   ID: CardID_278865_6:54:39 PM
+   Name: Card_Curse_Nullify_02
+
+
+================================================================================
+SUMMARY BY CARD TYPE
+================================================================================
+Mage: 12 cards (L1: 12)
+Attack: 15 cards (L1: 15)
+Defense: 13 cards (L1: 4, L2: 5, L3: 4)
+Armor: 4 cards (L1: 3, L3: 1)
+Pet: 11 cards (L1: 7, L2: 4)
+Plant: 12 cards (L1: 9, L3: 3)
+Item: 24 cards (L1: 14, L2: 6, L3: 4)
+Tower: 14 cards (L1: 6, L2: 6, L3: 2)
+Resource: 19 cards (L1: 15, L2: 2, L3: 2)
+Curse: 18 cards (L1: 11, L2: 6, L3: 1)
+Anti-Curse: 6 cards (L1: 4, L2: 2)
+
+Total: 148 cards
