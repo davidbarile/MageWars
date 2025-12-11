@@ -29,8 +29,7 @@ public class UISpriteSelectPanel : UIPanelBase
     [SerializeField] private GameObject showUsedButtonText;
 
     [Header("Manually Serialize All Sprites Here")]
-    public List<Sprite> AllSprites;
-    public List<Sprite> SpecialSprites;
+    [SerializeField] private SpritesConfig spritesConfig;
 
     private List<string> allSpriteNames = new();
     private List<string> spriteItemNames;
@@ -43,14 +42,6 @@ public class UISpriteSelectPanel : UIPanelBase
 
     private bool isPermanentResourceMode;
 
-    [Serializable]
-    public class ElementSpriteLookup
-    {
-        public EElement Element;
-        public Sprite Sprite;
-    }
-
-    [SerializeField] private ElementSpriteLookup[] elementSpriteLookups;
     public static Dictionary<EElement, ElementSpriteLookup> ElementsToSpritesDict = new();
 
     private bool isResources;
@@ -59,7 +50,7 @@ public class UISpriteSelectPanel : UIPanelBase
 
     public void CreateElementSpriteDict()
     {
-        foreach (var item in this.elementSpriteLookups)
+        foreach (var item in this.spritesConfig.ElementSpriteLookups)
         {
             if (!ElementsToSpritesDict.ContainsKey(item.Element))
                 ElementsToSpritesDict.Add(item.Element, item);
@@ -102,12 +93,12 @@ public class UISpriteSelectPanel : UIPanelBase
         emptyItem.OnClick = OnSpriteClicked;
         emptyItem.SetCountText(0, 0);
 
-        if(!inIsResources)
+        if (!inIsResources)
         {
-            for (int i = 0; i < this.SpecialSprites.Count; i++)
+            for (int i = 0; i < this.spritesConfig.SpecialSprites.Count; i++)
             {
                 var item = Instantiate(this.spriteSelectItemPrefab, this.grid.transform);
-                var sprite = this.SpecialSprites[i];
+                var sprite = this.spritesConfig.SpecialSprites[i];
 
                 item.SetSprite(sprite);
                 item.OnClick = OnSpriteClicked;
@@ -172,10 +163,10 @@ public class UISpriteSelectPanel : UIPanelBase
             }
         }
 
-        for (int i = 0; i < this.AllSprites.Count; i++)
+        for (int i = 0; i < this.spritesConfig.AllSprites.Count; i++)
         {
             var item = Instantiate(this.spriteSelectItemPrefab, this.grid.transform);
-            var sprite = CardsManager.GetResourceSpriteFromName(this.AllSprites[i].name);
+            var sprite = CardsManager.GetResourceSpriteFromName(this.spritesConfig.AllSprites[i].name);
 
             item.SetSprite(sprite);
             item.OnClick = OnSpriteClicked;
@@ -279,10 +270,10 @@ public class UISpriteSelectPanel : UIPanelBase
         emptyItem.OnClick = OnPermanentResourceSpriteClicked;
         emptyItem.SetCountText(0, 0);//change?
 
-        for (int i = 0; i < this.AllSprites.Count; i++)
+        for (int i = 0; i < this.spritesConfig.AllSprites.Count; i++)
         {
             var item = Instantiate(this.spriteSelectItemPrefab, this.grid.transform);
-            var sprite = CardsManager.GetResourceSpriteFromName(this.AllSprites[i].name);
+            var sprite = CardsManager.GetResourceSpriteFromName(this.spritesConfig.AllSprites[i].name);
 
             item.SetSprite(sprite);
             item.OnClick = OnPermanentResourceSpriteClicked;
@@ -479,8 +470,8 @@ public class UISpriteSelectPanel : UIPanelBase
     {
         if (this.allSpriteNames.Count == 0)
         {
-            this.allSpriteNames = this.SpecialSprites.Select(sprite => sprite.name).ToList();
-            this.allSpriteNames.AddRange(this.AllSprites.Select(sprite => sprite.name));
+            this.allSpriteNames = this.spritesConfig.SpecialSprites.Select(sprite => sprite.name).ToList();
+            this.allSpriteNames.AddRange(this.spritesConfig.AllSprites.Select(sprite => sprite.name));
         }
 
         return this.allSpriteNames;
@@ -502,7 +493,7 @@ public class UISpriteSelectPanel : UIPanelBase
 
         SetShowAllButtonText(PlayerData.Data.ShouldShowAllResources);
 
-        if(this.isPermanentResourceMode)
+        if (this.isPermanentResourceMode)
             Show(this.permanentResourceSpriteName, this.isViewOnly, this.onResourceChanged);
         else
             Show(this.spriteItemNames, this.spriteIndex, this.isViewOnly, this.isResources, this.onResourceChanged);

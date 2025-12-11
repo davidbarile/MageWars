@@ -37097,7 +37097,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1915528310}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.69753915
+  m_Size: 0.57457715
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -68750,7 +68750,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1074852782}
   m_HandleRect: {fileID: 1074852781}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -100012,8 +100012,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1392016375078709861}
   m_HandleRect: {fileID: 3087649482137834665}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.886316
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -109489,6 +109489,7 @@ MonoBehaviour:
   bgRectTrans: {fileID: 5181730277676562379}
   showAllButtonText: {fileID: 1869301293}
   showUsedButtonText: {fileID: 414771644}
+  spritesConfig: {fileID: 11400000, guid: 1827285f49b15414487026aaa4122a2e, type: 2}
   AllSprites:
   - {fileID: -159815420, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
   - {fileID: 673085975, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
@@ -109626,9 +109627,9 @@ MonoBehaviour:
   - Element: 4
     Sprite: {fileID: 122534372, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
   - Element: 8
-    Sprite: {fileID: -2079851481, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
-  - Element: 16
     Sprite: {fileID: 918073061, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
+  - Element: 16
+    Sprite: {fileID: 1596499978, guid: ee73b8aba424f46368db75f51da7a066, type: 3}
 --- !u!114 &6150310247072014133
 MonoBehaviour:
   m_ObjectHideFlags: 0
