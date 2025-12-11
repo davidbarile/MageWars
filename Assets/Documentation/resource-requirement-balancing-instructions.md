@@ -66,7 +66,7 @@ Here are some Requirement examples:
 
 The maximum number of Resources for a card should be 4, and up to 6 for Structure or Level cards.
 
-Create a copy of the pack with “ID”: “Pack_01”, and give it "Name": "Base Pack Resources" with "ID": "Pack_02". If any of the existing Cards have Resources, Permanent Resources or Resurrection requirements, erase them and start your balancing algorithm from scratch.  Please error-check the JSON when done and fix errors.
+Create a copy of the pack with “ID”: “Pack_02”, and edit it to have "Name": "Base Pack Resources". If any of the existing Cards have Resources, Permanent Resources or Resurrection requirements, erase them and start your balancing algorithm from scratch.  Please error-check the JSON when done and fix errors.
 
 ---
 
